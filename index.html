@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Flaviana Andrade</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header id="home">
+      <nav class="navbar">
+        <div class="logo" href="#home">{=>}</div>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+      <div class="hero-container">
+        <p class="intro">Olá, meu nome é</p>
+        <h1>Flaviana Andrade.</h1>
+        <h2>Desenvolvedora de Software</h2>
+        <p class="descricao">
+          Sou uma desenvolvedora apaixonada por criar soluções tecnológicas que
+          impactam positivamente a vida das pessoas. Tenho experiência com Java,
+          SQL, HTML, CSS, JavaScript, Git e GitHub, atuando como Analista de
+          Sistemas, com foco em gestão de processos, suporte técnico, segurança
+          da informação e relacionamento com usuários.
+        </p>
+        <a href="#projetos" class="btn-hero">Veja meus projetos!</a>
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-container">
+          <div class="sobre-mim-foto">
+            <img src="/assests/img/Flaviana.jpeg" alt="Minha Foto" />
+          </div>
+          <div class="sobre-texto">
+            <p>
+              Comecei minha trajetória na tecnologia em 2015, quando ingressei
+              no curso de Tecnologia em Telemática no IFCE. Durante o curso,
+              pude explorar diversas áreas da tecnologia, desde redes e
+              telecomunicações até desenvolvimento de software. Foi nessa última
+              área que me encontrei: descobri minha paixão por criar soluções
+              que resolvem problemas do dia a dia e tornar a tecnologia
+              acessível e útil para as pessoas. Desde então, venho me dedicando
+              ao desenvolvimento de software, aprimorando minhas habilidades e
+              criando projetos que unem criatividade e funcionalidade.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>MySQL</li>
+          <li>Git e GitHub</li>
+          <li>PostgreSQL</li>
+          <li>Trello</li>
+          <li>ReactJS</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          <div class="projeto">
+            <h3>Biblioteca</h3>
+            <p>
+              A ideia é criar um sistema simples, em uma pequena biblioteca. A
+              biblioteca precisa registrar os livros disponíveis, cadastrar os
+              leitores e gerenciar o processo de empréstimos..
+            </p>
+            <a href="https://github.com/flavianaal/Biblioteca" target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+          <div class="projeto">
+            <h3>Oficina Tech</h3>
+            <p>
+              O OficinaTech é um sistema web desenvolvido para auxiliar oficinas
+              mecânicas no gerenciamento de ordens de serviço, clientes e
+              veículos. O sistema tem como objetivo melhorar a organização
+              interna da oficina e proporcionar uma experiência mais ágil e
+              eficiente aos clientes..
+            </p>
+            <a href="https://github.com/flavianaal/Oficinatech" target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+          <div class="projeto">
+            <h3>Linktree</h3>
+            <p>
+              Uma página centralizada que reúne alguns outros projetos meus
+              importantes, facilitando o acesso rápido às minhas criações e
+              trabalhos na web.
+            </p>
+            <a href="https://github.com/flavianaal/gitPages" target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+          <!-- Repetir bloco para outros projetos -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <form id="contatoForm" action="https://formspree.io/f/xnnbezov" method="POST">
+          <input type="text" name="nome" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <textarea
+            name="mensagem"
+            placeholder="Sua mensagem"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <div id="mensagem"></div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Flaviana Andrade. Todos os direitos reservados.</p>
+        <div class="social-links">
+          <a href="https://github.com/flavianaal" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/flaviana-andrade/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a href="https://web.whatsapp.com/" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <!-- Adicione mais redes se quiser -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Chamada do JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
